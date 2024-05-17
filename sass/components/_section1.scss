@@ -1,0 +1,50 @@
+.hero {
+  animation: fadeIn 2s ease forwards;
+  &__title {
+    font-family: Montserrat;
+    font-size: 30.04px;
+    font-weight: 700;
+    line-height: 36.62px;
+    text-align: center;
+    color: $white;
+  }
+
+  &__paragraph {
+    font-family: Roboto;
+    font-size: 18.02px;
+    font-weight: 300;
+    line-height: 21.12px;
+    color: $white;
+    text-align: center;
+  }
+
+  &__btn-div {
+    text-align: center;
+  }
+
+  &__button {
+    padding: 13px 38px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: $white;
+    background: $button;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 151px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+      background-color: $white;
+      color: black;
+    }
+    &:active {
+      transform: scale(0.9);
+      background-color: $button-active;
+      border-color: $button-active;
+      color: $white;
+    }
+  }
+}

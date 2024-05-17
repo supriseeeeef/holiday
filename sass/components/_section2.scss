@@ -1,0 +1,74 @@
+.main {
+}
+
+.section1 {
+}
+
+.main-title {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.82px;
+  text-align: center;
+  color: $black;
+  margin-top: 67px;
+}
+
+.partners-list {
+  padding: 0;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  &__img {
+    border-radius: 50%;
+  }
+  &__title {
+    font-family: Montserrat;
+    font-size: 14.01px;
+    font-weight: 700;
+    line-height: 17.08px;
+    text-align: center;
+    color: $black;
+  }
+  &__subtitle {
+    font-family: Roboto;
+    font-size: 14.01px;
+    font-weight: 300;
+    line-height: 16.42px;
+    text-align: center;
+    color: $subtitle;
+  }
+}
+
+.other-people {
+  text-align: center;
+
+  &__button {
+    padding: 11px 59px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: center;
+    color: $button;
+    border-radius: 20px;
+    border: 2px solid $button;
+    background-color: inherit;
+    margin-bottom: 56px;
+    transition: all 0.5s ease;
+    &:hover {
+      background-color: $button;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    &:active {
+      background-color: $button-active;
+      border-color: $button-active;
+      transform: scale(0.9);
+    }
+  }
+}

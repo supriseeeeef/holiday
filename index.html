@@ -3,71 +3,65 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Holiday</title>
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="n.css">
   <link rel="stylesheet" href="css/main.min.css">
   <link rel="shortcut icon" href="#" type="image/png">
+  <link rel="stylesheet" href="aos.css">
 </head>
 
 <body>
-  <header class="header">
+  <div class="background">
+    <header class="header">
       <div class="container">
-        <div class="buttons">
-          <button class="buttons__first">Log in</button>
-          <button class="buttons__seccond">Sign up</button>
+        <div class="buttons"><button class="buttons__first">Log in</button><button class="buttons__second">Sign
+            up</button>
           <h1 class="logo">URLAUBSGLÜCK</h1>
         </div>
       </div>
-  </header>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero__title">Share your<br>holiday dreams</h2>
+        <p class="hero__paragraph">And find the perfect partner<br>to fulfill it</p>
+        <div class="hero__btn-div"><button class="hero__button">Find your holiday partner</button></div>
+      </div>
+    </section>
+  </div>
   <main class="main">
     <div class="container">
-      <section class="hero">
-        <h2 class="hero__title">Share your<br>holiday dreams</h2>
-        <p class="hero__pharagraph">And find the perfect partner<br>to fullfill it</p>
-        <button class="hero__button">Find your holiday partner</button>
+      <section class="section1">
+        <h2 class="main-title" data-aos="fade-up" data-aos-duration="1500">Meet a partner for your<br>best holiday</h2>
+        <ul class="partners-list">
+          <li class="partners-list__item" data-aos="fade-up" data-aos-duration="1500"><img src="image/1.jpg"
+              alt="first partner" class="partners-list__img">
+            <p class="partners-list__title">Bradley Hunter</p>
+            <p class="partners-list__subtitle">Based in Chicago. I love playing tennis and loud music.</p>
+          </li>
+          <li class="partners-list__item" data-aos="fade-up" data-aos-duration="1500"><img src="image/2.jpg"
+              alt="second partner" class="partners-list__img">
+            <p class="partners-list__title">Lucas Marsha</p>
+            <p class="partners-list__subtitle">I get my inspiration from nature and objects around me. I have a passion
+              for colours, typography and skateboards.</p>
+          </li>
+          <li class="partners-list__item" data-aos="fade-up" data-aos-duration="1500"><img src="image/3.jpg"
+              alt="third partner" class="partners-list__img">
+            <p class="partners-list__title">Heather Walker</p>
+            <p class="partners-list__subtitle">I'm a happy person that loves cats and climbing mountains.</p>
+          </li>
+          <li class="partners-list__item" data-aos="fade-up" data-aos-duration="1500"><img src="image/4.jpg"
+              alt="fourth partner" class="partners-list__img">
+            <p class="partners-list__title">Jane Doe</p>
+            <p class="partners-list__subtitle">Travel enthusiast and food lover. Based in New York.</p>
+          </li>
+        </ul>
+        <div class="other-people"><button class="other-people__button">See other partners</button></div>
       </section>
-    <section class="section1">
-      <h2 class="main-title">Meet a partner for your<br>best holiday</h2>
-      <ul class="partners-list">
-        <li class="partners-list__item">
-          <img src="#" alt="first partner" class="partners-list__img">
-          <svg>
-            <use href="#"></use>
-          </svg>
-          <p class="partners-list__title">Bradley Hunter</p>
-          <p class="partners-list__subtitle">Based in Chicago. I love playing tennis and loud music.</p>
-        </li>
-        <li class="partners-list__item">
-          <img src="#" alt="seccond partner" class="partners-list__img">
-          <svg>
-            <use href="#"></use>
-          </svg>
-          <p class="partners-list__title">Lucas Marsha</p>
-          <p class="partners-list__subtitle">I get my inspiration from nature and objects around me. I have a passion to
-            colours, typography and skateboards.</p>
-        </li>
-        <li class="partners-list__item">
-          <img src="#" alt="third partner" class="partners-list__img">
-          <svg>
-            <use href="#"></use>
-          </svg>
-          <p class="partners-list__title">Heather Walker</p>
-          <p class="partners-list__subtitle">I'm a happy person that loves cats and climbing on mountains.</p>
-        </li>
-        <li class="partners-list__item">
-          <img src="#" alt="fourth partner" class="partners-list__img">
-          <svg>
-            <use href="#"></use>
-          </svg>
-          <p class="partners-list__title">Bradley Hunter</p>
-          <p class="partners-list__subtitle">Based in Chicago. I love playing tennis and loud music.</p>
-        </li>
-      </ul>
-      <button class="other-people-button">See other partners</button>
-    </section>
     </div>
   </main>
+  <script src="aos.js"></script>
+  <script>AOS.init()</script>
 </body>
 
 </html>

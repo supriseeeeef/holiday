@@ -1,15 +1,15 @@
-.header {
-    background-color: black;
+.background {
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-// .background {
-//     background-image: url("../image/background.jpg");
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
-
 .buttons {
-    text-align: center;
+  padding-top: 19px;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+  text-align: center;
   &__first {
     font-family: Montserrat;
     font-size: 13.99px;
@@ -21,7 +21,7 @@
     border: none;
   }
 
-  &__seccond {
+  &__second {
     font-family: Montserrat;
     font-size: 13.99px;
     font-weight: 700;
@@ -35,12 +35,22 @@
 }
 
 .logo {
-    margin-top: 112px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21.94px;
-    letter-spacing: 1px;
-    text-align: center;
-    color: $white;
+  margin-top: 112px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $white;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

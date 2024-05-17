@@ -1,12 +1,20 @@
 .container {
+  margin: 0 auto;
   width: 322px;
 }
 
-.header {
-  background-color: black;
+.background {
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .buttons {
+  padding-top: 19px;
+  opacity: 0;
+  -webkit-animation: fadeIn 2s ease forwards;
+          animation: fadeIn 2s ease forwards;
   text-align: center;
 }
 .buttons__first {
@@ -19,7 +27,7 @@
   background-color: inherit;
   border: none;
 }
-.buttons__seccond {
+.buttons__second {
   font-family: Montserrat;
   font-size: 13.99px;
   font-weight: 700;
@@ -40,4 +48,152 @@
   letter-spacing: 1px;
   text-align: center;
   color: #FFFFFF;
+  -webkit-animation: fadeIn 2s ease forwards;
+          animation: fadeIn 2s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hero {
+  -webkit-animation: fadeIn 2s ease forwards;
+          animation: fadeIn 2s ease forwards;
+}
+.hero__title {
+  font-family: Montserrat;
+  font-size: 30.04px;
+  font-weight: 700;
+  line-height: 36.62px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.hero__paragraph {
+  font-family: Roboto;
+  font-size: 18.02px;
+  font-weight: 300;
+  line-height: 21.12px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.hero__btn-div {
+  text-align: center;
+}
+.hero__button {
+  padding: 13px 38px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background: #ff4e50;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 151px;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.hero__button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #FFFFFF;
+  color: black;
+}
+.hero__button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  background-color: #c23c3d;
+  border-color: #c23c3d;
+  color: #FFFFFF;
+}
+
+.main-title {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.82px;
+  text-align: center;
+  color: #333333;
+  margin-top: 67px;
+}
+
+.partners-list {
+  padding: 0;
+}
+.partners-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.partners-list__img {
+  border-radius: 50%;
+}
+.partners-list__title {
+  font-family: Montserrat;
+  font-size: 14.01px;
+  font-weight: 700;
+  line-height: 17.08px;
+  text-align: center;
+  color: #333333;
+}
+.partners-list__subtitle {
+  font-family: Roboto;
+  font-size: 14.01px;
+  font-weight: 300;
+  line-height: 16.42px;
+  text-align: center;
+  color: #666666;
+}
+
+.other-people {
+  text-align: center;
+}
+.other-people__button {
+  padding: 11px 59px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  text-align: center;
+  color: #ff4e50;
+  border-radius: 20px;
+  border: 2px solid #ff4e50;
+  background-color: inherit;
+  margin-bottom: 56px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.other-people__button:hover {
+  background-color: #ff4e50;
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.other-people__button:active {
+  background-color: #c23c3d;
+  border-color: #c23c3d;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
