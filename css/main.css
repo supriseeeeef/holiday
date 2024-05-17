@@ -1,0 +1,43 @@
+.container {
+  width: 322px;
+}
+
+.header {
+  background-color: black;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttons__first {
+  font-family: Montserrat;
+  font-size: 13.99px;
+  font-weight: 700;
+  line-height: 17.05px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: inherit;
+  border: none;
+}
+.buttons__seccond {
+  font-family: Montserrat;
+  font-size: 13.99px;
+  font-weight: 700;
+  line-height: 17.05px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: inherit;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+.logo {
+  margin-top: 112px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #FFFFFF;
+}/*# sourceMappingURL=main.css.map */
